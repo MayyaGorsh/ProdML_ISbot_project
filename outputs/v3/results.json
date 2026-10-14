@@ -1,0 +1,23 @@
+{
+  "selected_model": "blend_pair",
+  "oof_logloss": {
+    "constant": 0.6761159936060748,
+    "cat_extended": 0.20323026291542623,
+    "svd_catboost": 0.18402104212130338,
+    "word_char_tfidf": 0.4820147190816887,
+    "blend": 0.18229418072342116,
+    "blend_pair": 0.1759166616996953
+  },
+  "svd_weight": 0.75,
+  "text_weight": 0.05,
+  "mlflow_run_ids": {
+    "constant": "0be05f3b383b436a88a34125a5daace7",
+    "cat_extended": "2e5c6f1d7ba24896981d700595f48fc6",
+    "svd_catboost": "f16f16d033854836b36f5941c48ccbe2",
+    "word_char_tfidf": "b6688e1ca9c84813b239c3165e1df642",
+    "blend": "a1e0b9fd1ca3430784f4c78f7eaf74b8",
+    "blend_pair": "c17350902aa94f64b91154a11a731a53"
+  },
+  "submission": "outputs\\v3\\submission.csv",
+  "rows": 758
+}

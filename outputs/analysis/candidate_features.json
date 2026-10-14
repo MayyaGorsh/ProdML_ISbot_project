@@ -1,0 +1,41 @@
+{
+  "new_features": [
+    "reply_overlap_high_share",
+    "reply_novel_word_share",
+    "reply_longer_share",
+    "reply_prefix_extension_share",
+    "reply_prefix_truncation_share",
+    "reply_common_prefix_share",
+    "reply_common_suffix_share",
+    "last_reply_overlap",
+    "last_reply_length_ratio",
+    "question_to_question_share",
+    "reply_script_switch_share"
+  ],
+  "baseline": {
+    "23": {
+      "raw_oof": 0.184413,
+      "pair_oof": 0.180772,
+      "blend_pair_oof": 0.177391
+    },
+    "42": {
+      "raw_oof": 0.181779,
+      "pair_oof": 0.177912,
+      "blend_pair_oof": 0.174093
+    }
+  },
+  "candidate": {
+    "23": {
+      "raw_oof": 0.186627,
+      "pair_oof": 0.183563,
+      "mean_fold_train": 0.046692,
+      "blend_pair_oof": 0.17784
+    },
+    "42": {
+      "raw_oof": 0.183,
+      "pair_oof": 0.180585,
+      "mean_fold_train": 0.045104,
+      "blend_pair_oof": 0.175103
+    }
+  }
+}

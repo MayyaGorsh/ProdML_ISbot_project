@@ -1,0 +1,24 @@
+{
+  "folds": 4,
+  "seed": 23,
+  "baseline_selected": "blend_pair",
+  "baseline_logloss": 0.17739102720950867,
+  "alternatives": {
+    "extra_trees": {
+      "raw": 0.267894,
+      "pair_adjusted": 0.239866
+    },
+    "hist_gradient_boosting": {
+      "raw": 0.209798,
+      "pair_adjusted": 0.20925
+    },
+    "word_nbsvm": {
+      "raw": 0.55927,
+      "pair_adjusted": 0.54544
+    },
+    "char_nbsvm": {
+      "raw": 0.573762,
+      "pair_adjusted": 0.569309
+    }
+  }
+}

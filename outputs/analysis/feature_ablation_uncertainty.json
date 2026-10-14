@@ -1,0 +1,42 @@
+{
+  "text_svd_only": {
+    "delta": 0.292199,
+    "bootstrap_95pct": [
+      0.266788,
+      0.318365
+    ],
+    "bootstrap_positive_share": 1.0
+  },
+  "without_conversation_geometry": {
+    "delta": 0.0403,
+    "bootstrap_95pct": [
+      0.024044,
+      0.057691
+    ],
+    "bootstrap_positive_share": 1.0
+  },
+  "without_reply_copy": {
+    "delta": 0.072754,
+    "bootstrap_95pct": [
+      0.054781,
+      0.091401
+    ],
+    "bootstrap_positive_share": 1.0
+  },
+  "without_length_lexical": {
+    "delta": 0.000912,
+    "bootstrap_95pct": [
+      -0.004765,
+      0.006912
+    ],
+    "bootstrap_positive_share": 0.6362
+  },
+  "without_style_script": {
+    "delta": 0.022082,
+    "bootstrap_95pct": [
+      0.014493,
+      0.030154
+    ],
+    "bootstrap_positive_share": 1.0
+  }
+}

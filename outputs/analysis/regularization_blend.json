@@ -1,0 +1,16 @@
+{
+  "23": {
+    "current_blend_oof": 0.177391,
+    "stronger_l2_blend_oof": 0.176645,
+    "delta": -0.000746,
+    "stronger_l2_svd_oof": 0.179645,
+    "stronger_l2_mean_fold_train": 0.055101
+  },
+  "42": {
+    "current_blend_oof": 0.174093,
+    "stronger_l2_blend_oof": 0.175178,
+    "delta": 0.001086,
+    "stronger_l2_svd_oof": 0.178732,
+    "stronger_l2_mean_fold_train": 0.05153
+  }
+}

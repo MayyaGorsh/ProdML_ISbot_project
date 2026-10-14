@@ -1,0 +1,205 @@
+{
+  "feature_names": [
+    "reply_overlap_high_share",
+    "reply_novel_word_share",
+    "reply_longer_share",
+    "reply_prefix_extension_share",
+    "reply_prefix_truncation_share",
+    "reply_common_prefix_share",
+    "reply_common_suffix_share",
+    "last_reply_overlap",
+    "last_reply_length_ratio",
+    "question_to_question_share",
+    "reply_script_switch_share"
+  ],
+  "seeds": {
+    "23": {
+      "baseline": {
+        "raw_oof": 0.184413,
+        "pair_oof": 0.180772,
+        "blend_pair_oof": 0.177391
+      },
+      "scenarios": {
+        "reply_overlap_high_share": {
+          "raw_oof": 0.184474,
+          "pair_oof": 0.181639,
+          "blend_pair_oof": 0.177689,
+          "mean_fold_train": 0.049076,
+          "delta_vs_current_blend": 0.000298
+        },
+        "reply_novel_word_share": {
+          "raw_oof": 0.184773,
+          "pair_oof": 0.180959,
+          "blend_pair_oof": 0.177291,
+          "mean_fold_train": 0.04821,
+          "delta_vs_current_blend": -0.0001
+        },
+        "reply_longer_share": {
+          "raw_oof": 0.184267,
+          "pair_oof": 0.182289,
+          "blend_pair_oof": 0.178323,
+          "mean_fold_train": 0.048011,
+          "delta_vs_current_blend": 0.000932
+        },
+        "reply_prefix_extension_share": {
+          "raw_oof": 0.184505,
+          "pair_oof": 0.181268,
+          "blend_pair_oof": 0.177748,
+          "mean_fold_train": 0.04894,
+          "delta_vs_current_blend": 0.000357
+        },
+        "reply_prefix_truncation_share": {
+          "raw_oof": 0.185683,
+          "pair_oof": 0.181283,
+          "blend_pair_oof": 0.177406,
+          "mean_fold_train": 0.049095,
+          "delta_vs_current_blend": 1.5e-05
+        },
+        "reply_common_prefix_share": {
+          "raw_oof": 0.186198,
+          "pair_oof": 0.183362,
+          "blend_pair_oof": 0.178944,
+          "mean_fold_train": 0.048306,
+          "delta_vs_current_blend": 0.001553
+        },
+        "reply_common_suffix_share": {
+          "raw_oof": 0.186385,
+          "pair_oof": 0.183832,
+          "blend_pair_oof": 0.179388,
+          "mean_fold_train": 0.048968,
+          "delta_vs_current_blend": 0.001997
+        },
+        "last_reply_overlap": {
+          "raw_oof": 0.186165,
+          "pair_oof": 0.182491,
+          "blend_pair_oof": 0.177984,
+          "mean_fold_train": 0.047885,
+          "delta_vs_current_blend": 0.000593
+        },
+        "last_reply_length_ratio": {
+          "raw_oof": 0.186629,
+          "pair_oof": 0.183064,
+          "blend_pair_oof": 0.178793,
+          "mean_fold_train": 0.048346,
+          "delta_vs_current_blend": 0.001402
+        },
+        "question_to_question_share": {
+          "raw_oof": 0.183953,
+          "pair_oof": 0.180981,
+          "blend_pair_oof": 0.177585,
+          "mean_fold_train": 0.048437,
+          "delta_vs_current_blend": 0.000194
+        },
+        "reply_script_switch_share": {
+          "raw_oof": 0.184581,
+          "pair_oof": 0.181699,
+          "blend_pair_oof": 0.177877,
+          "mean_fold_train": 0.047712,
+          "delta_vs_current_blend": 0.000486
+        },
+        "bundle_l2_12_iter800": {
+          "raw_oof": 0.186532,
+          "pair_oof": 0.182926,
+          "blend_pair_oof": 0.178478,
+          "mean_fold_train": 0.053077,
+          "delta_vs_current_blend": 0.001087,
+          "delta_vs_same_regularization_baseline": 0.001833
+        }
+      }
+    },
+    "42": {
+      "baseline": {
+        "raw_oof": 0.181779,
+        "pair_oof": 0.177912,
+        "blend_pair_oof": 0.174093
+      },
+      "scenarios": {
+        "reply_overlap_high_share": {
+          "raw_oof": 0.184356,
+          "pair_oof": 0.18217,
+          "blend_pair_oof": 0.176782,
+          "mean_fold_train": 0.045809,
+          "delta_vs_current_blend": 0.002689
+        },
+        "reply_novel_word_share": {
+          "raw_oof": 0.18292,
+          "pair_oof": 0.17911,
+          "blend_pair_oof": 0.174307,
+          "mean_fold_train": 0.045513,
+          "delta_vs_current_blend": 0.000214
+        },
+        "reply_longer_share": {
+          "raw_oof": 0.184596,
+          "pair_oof": 0.181621,
+          "blend_pair_oof": 0.17673,
+          "mean_fold_train": 0.046282,
+          "delta_vs_current_blend": 0.002637
+        },
+        "reply_prefix_extension_share": {
+          "raw_oof": 0.182013,
+          "pair_oof": 0.17838,
+          "blend_pair_oof": 0.174234,
+          "mean_fold_train": 0.045538,
+          "delta_vs_current_blend": 0.000141
+        },
+        "reply_prefix_truncation_share": {
+          "raw_oof": 0.183856,
+          "pair_oof": 0.180587,
+          "blend_pair_oof": 0.175574,
+          "mean_fold_train": 0.046972,
+          "delta_vs_current_blend": 0.001481
+        },
+        "reply_common_prefix_share": {
+          "raw_oof": 0.183201,
+          "pair_oof": 0.179679,
+          "blend_pair_oof": 0.175314,
+          "mean_fold_train": 0.046253,
+          "delta_vs_current_blend": 0.001221
+        },
+        "reply_common_suffix_share": {
+          "raw_oof": 0.184702,
+          "pair_oof": 0.18142,
+          "blend_pair_oof": 0.176339,
+          "mean_fold_train": 0.046262,
+          "delta_vs_current_blend": 0.002246
+        },
+        "last_reply_overlap": {
+          "raw_oof": 0.183688,
+          "pair_oof": 0.179893,
+          "blend_pair_oof": 0.175276,
+          "mean_fold_train": 0.04685,
+          "delta_vs_current_blend": 0.001183
+        },
+        "last_reply_length_ratio": {
+          "raw_oof": 0.185493,
+          "pair_oof": 0.182093,
+          "blend_pair_oof": 0.176809,
+          "mean_fold_train": 0.046087,
+          "delta_vs_current_blend": 0.002716
+        },
+        "question_to_question_share": {
+          "raw_oof": 0.183696,
+          "pair_oof": 0.180271,
+          "blend_pair_oof": 0.175924,
+          "mean_fold_train": 0.046658,
+          "delta_vs_current_blend": 0.001831
+        },
+        "reply_script_switch_share": {
+          "raw_oof": 0.17958,
+          "pair_oof": 0.176198,
+          "blend_pair_oof": 0.172877,
+          "mean_fold_train": 0.045911,
+          "delta_vs_current_blend": -0.001216
+        },
+        "bundle_l2_12_iter800": {
+          "raw_oof": 0.182462,
+          "pair_oof": 0.178449,
+          "blend_pair_oof": 0.174898,
+          "mean_fold_train": 0.051073,
+          "delta_vs_current_blend": 0.000805,
+          "delta_vs_same_regularization_baseline": -0.00028
+        }
+      }
+    }
+  }
+}

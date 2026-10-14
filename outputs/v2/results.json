@@ -1,0 +1,23 @@
+{
+  "selected_model": "blend_pair",
+  "oof_logloss": {
+    "constant": 0.6761159936060748,
+    "cat_extended": 0.20323026291542623,
+    "svd_catboost": 0.18441277832942365,
+    "word_char_tfidf": 0.4820147190816887,
+    "blend": 0.18473182828247522,
+    "blend_pair": 0.17739102720950867
+  },
+  "svd_weight": 0.75,
+  "text_weight": 0.05,
+  "mlflow_run_ids": {
+    "constant": "61c61052c2874ac396b37f9c60b5c92b",
+    "cat_extended": "d45356dbd2e641f2b07789f79836ff80",
+    "svd_catboost": "c8dea64fe0b6431bb7051cccb71b7610",
+    "word_char_tfidf": "75b50d7ead234f7e8a4288f207eccf84",
+    "blend": "a1fb3944a38e4e97b67d1796182ca68f",
+    "blend_pair": "b6bd7151ef3c4fc19c9f34ec5a36f7e2"
+  },
+  "submission": "C:\\Users\\Mayya\\Documents\\ЦУ\\Production ML\\project\\outputs\\submission.csv",
+  "rows": 758
+}

@@ -1,0 +1,163 @@
+{
+  "groups": {
+    "conversation_geometry": [
+      "n_msg",
+      "other_n",
+      "n_diff",
+      "first_speaker",
+      "first_turn_fraction",
+      "last_turn_fraction",
+      "is_last_speaker",
+      "consecutive_own_turns"
+    ],
+    "reply_copy": [
+      "shared_vocab_ratio",
+      "avg_prev_overlap",
+      "max_prev_overlap",
+      "avg_prev_similarity",
+      "max_prev_similarity",
+      "exact_echo_share",
+      "contains_echo_share",
+      "avg_log_reply_len_ratio",
+      "replied_to_question_share",
+      "avg_self_adjacent_similarity"
+    ],
+    "length_lexical": [
+      "chars",
+      "avg_msg_chars",
+      "max_msg_chars",
+      "std_msg_chars",
+      "words",
+      "unique_words",
+      "char_diff",
+      "median_msg_chars",
+      "q25_msg_chars",
+      "q75_msg_chars",
+      "first_msg_chars",
+      "last_msg_chars",
+      "avg_msg_words",
+      "max_msg_words",
+      "unique_msg",
+      "char_entropy",
+      "word_entropy",
+      "long_msg_share",
+      "empty_msg_share"
+    ],
+    "style_script": [
+      "punct",
+      "digit",
+      "uppercase",
+      "cyrillic",
+      "latin",
+      "newline",
+      "parentheses",
+      "question_msg_share",
+      "exclaim_msg_share",
+      "cyrillic_msg_share",
+      "latin_msg_share",
+      "whitespace_ratio",
+      "supplementary_unicode_ratio",
+      "question_char_ratio",
+      "exclaim_char_ratio"
+    ]
+  },
+  "scores": {
+    "full": {
+      "raw": 0.184413,
+      "pair_adjusted": 0.180772,
+      "mean_fold_train": 0.048393,
+      "delta_vs_full_pair": 0.0
+    },
+    "text_svd_only": {
+      "raw": 0.507318,
+      "pair_adjusted": 0.47297,
+      "mean_fold_train": 0.262746,
+      "delta_vs_full_pair": 0.292198
+    },
+    "without_conversation_geometry": {
+      "raw": 0.226254,
+      "pair_adjusted": 0.221071,
+      "mean_fold_train": 0.060989,
+      "delta_vs_full_pair": 0.040299
+    },
+    "without_reply_copy": {
+      "raw": 0.252446,
+      "pair_adjusted": 0.253526,
+      "mean_fold_train": 0.085982,
+      "delta_vs_full_pair": 0.072754
+    },
+    "without_length_lexical": {
+      "raw": 0.185784,
+      "pair_adjusted": 0.181684,
+      "mean_fold_train": 0.047725,
+      "delta_vs_full_pair": 0.000912
+    },
+    "without_style_script": {
+      "raw": 0.204227,
+      "pair_adjusted": 0.202854,
+      "mean_fold_train": 0.051636,
+      "delta_vs_full_pair": 0.022082
+    }
+  },
+  "group_permutation_delta": {
+    "conversation_geometry": 0.29265,
+    "reply_copy": 0.291191,
+    "length_lexical": 0.0576,
+    "style_script": 0.057643
+  },
+  "individual_permutation_delta": {
+    "text_svd": 0.074149,
+    "is_last_speaker": 0.060248,
+    "avg_prev_overlap": 0.035963,
+    "n_diff": 0.032955,
+    "uppercase": 0.027302,
+    "shared_vocab_ratio": 0.014236,
+    "consecutive_own_turns": 0.013961,
+    "char_entropy": 0.010224,
+    "whitespace_ratio": 0.004381,
+    "avg_prev_similarity": 0.004255,
+    "max_prev_overlap": 0.004134,
+    "last_turn_fraction": 0.003689,
+    "cyrillic": 0.003381,
+    "char_diff": 0.002867,
+    "unique_words": 0.002279,
+    "first_turn_fraction": 0.0021,
+    "question_msg_share": 0.001942,
+    "punct": 0.001919,
+    "last_msg_chars": 0.001798,
+    "contains_echo_share": 0.001696,
+    "exact_echo_share": 0.001694,
+    "chars": 0.001315,
+    "avg_self_adjacent_similarity": 0.00129,
+    "cyrillic_msg_share": 0.000983,
+    "q25_msg_chars": 0.000818,
+    "first_msg_chars": 0.000813,
+    "newline": 0.000705,
+    "std_msg_chars": 0.000661,
+    "q75_msg_chars": 0.000661,
+    "avg_log_reply_len_ratio": 0.00056,
+    "supplementary_unicode_ratio": 0.000521,
+    "question_char_ratio": 0.000515,
+    "parentheses": 0.000489,
+    "max_msg_chars": 0.000488,
+    "word_entropy": 0.000474,
+    "digit": 0.000446,
+    "exclaim_msg_share": 0.000384,
+    "n_msg": 0.000336,
+    "max_prev_similarity": 0.000336,
+    "latin_msg_share": 0.000314,
+    "median_msg_chars": 0.000265,
+    "latin": 0.00019,
+    "first_speaker": 0.000175,
+    "replied_to_question_share": 0.000175,
+    "words": 0.000124,
+    "long_msg_share": 6.9e-05,
+    "avg_msg_words": 6.5e-05,
+    "unique_msg": 6.1e-05,
+    "avg_msg_chars": 5.4e-05,
+    "exclaim_char_ratio": 4.6e-05,
+    "empty_msg_share": -0.0,
+    "other_n": -3.3e-05,
+    "max_msg_words": -9.1e-05
+  }
+}
